@@ -69,6 +69,13 @@ Hiking
 
 ## Topics and Use Cases
 
+### Accident Prediction
+ 
+- Question or Problem
+- Features
+
 ### Customer-Centric Analysis
 
-### Accident Prediction
+- Question or Problem
+	- Assessing and Forecasting Physical Retail Store Location Value
+- Features
