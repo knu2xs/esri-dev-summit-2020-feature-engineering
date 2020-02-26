@@ -11,7 +11,7 @@
     <link rel="img/favicon.ico">
 
     
-    <title>Feature Engineering - Dev Summit 2020 - Feature Engineering</title>
+    <title>Geographic Feature Engineering - Dev Summit 2020 - Feature Engineering</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -68,33 +68,100 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#feature-engineering">Feature Engineering</a></li>
-            <li class="second-level"><a href="#geoai">GeoAI</a></li>
+        <li class="first-level active"><a href="#geographic-feature-engineering">Geographic Feature Engineering</a></li>
+            <li class="second-level"><a href="#why-machine-learning">Why Machine Learning?</a></li>
                 
-                <li class="third-level"><a href="#patterns">Patterns</a></li>
-                <li class="third-level"><a href="#vector">Vector</a></li>
+            <li class="second-level"><a href="#what-is-a-feature">What is a Feature?</a></li>
+                
+                <li class="third-level"><a href="#gis">GIS</a></li>
+                <li class="third-level"><a href="#data-science">Data Science</a></li>
+            <li class="second-level"><a href="#feature-engineering">Feature Engineering</a></li>
+                
+            <li class="second-level"><a href="#feature-contemplation">Feature Contemplation</a></li>
+                
+            <li class="second-level"><a href="#topics-and-use-cases">Topics and Use Cases</a></li>
+                
+                <li class="third-level"><a href="#customer-centric-analysis">Customer-Centric Analysis</a></li>
+                <li class="third-level"><a href="#accident-prediction">Accident Prediction</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="feature-engineering">Feature Engineering</h1>
-<h2 id="geoai">GeoAI</h2>
-<blockquote>
-<p>GeoAI - Analysis utilizing the technologies of GIS and machine learning utilizing sound quantitative methods from the respective disciplines of Geography and Artificial Intelligence.</p>
-</blockquote>
-<h3 id="patterns">Patterns</h3>
+<h1 id="geographic-feature-engineering">Geographic Feature Engineering</h1>
+<p><em>Geography</em> is the study of places and the relationships between people and their environment. - <a href="https://www.nationalgeographic.org/education/what-is-geography">National Geographic</a></p>
+<h2 id="why-machine-learning">Why Machine Learning?</h2>
 <ul>
-<li>Raster<ul>
-<li>NADIR</li>
-<li>Oriented</li>
+<li>Data Driven <ul>
+<li>Using data to learn the variables</li>
+<li>Trying to learn a model from some variable</li>
+<li>If you cannot write down what that model is, then machine learning can help</li>
 </ul>
 </li>
-<li>Vector</li>
+<li>11 Factors (normally seven) - <a href="https://www.sciencealert.com/science-discovers-human-brain-works-up-to-11-dimensions">Science Alert</a></li>
+<li>All models are wrong, but some are useful. - <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">George Box</a></li>
 </ul>
-<h3 id="vector">Vector</h3>
+<h2 id="what-is-a-feature">What is a Feature?</h2>
+<h3 id="gis">GIS</h3>
 <blockquote>
-<p>Feature Engineering - The process of using domain knowledge to extract features from raw data via data mining techniques. These features can be used to improve the performance of machine learning algorithms. Feature engineering <em>can</em> be considered as <em>applied machine learning</em> itself. - <a href="https://en.wikipedia.org/wiki/Feature_engineering">Wikipedia</a></p>
-</blockquote></div>
+<p>A representation of a real-world object on a map. - <a href="https://support.esri.com/en/other-resources/gis-dictionary/term/dcc335be-78ae-4bd2-b254-b44c37343f75">Esri GIS Dictionary</a></p>
+</blockquote>
+<h3 id="data-science">Data Science</h3>
+<blockquote>
+<p>A machine learning <em>feature</em> is an individual measurable property or characteristic of a phenomenon being observed. The concept of <em>feature</em> is related to that of explanatory variable. - <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">Wikipedia</a></p>
+</blockquote>
+<h2 id="feature-engineering">Feature Engineering</h2>
+<blockquote>
+<p><em>Feature engineering</em> is the process of using domain knowledge to extract features from raw data via data mining techniques...to improve the performance of machine learning algorithms. - <a href="https://en.wikipedia.org/wiki/Feature_engineering">Wikipedia</a></p>
+</blockquote>
+<p>Using GIS and data science tools and methodologies to create quantitative measures of geographic relationships and phenomena used for machine learning model development.</p>
+<h2 id="feature-contemplation">Feature Contemplation</h2>
+<p>How far is the the Esri campus?</p>
+<ul>
+<li>destination<ul>
+<li>"Esri campus"</li>
+<li>Building Q - 380 New York Street, Redlands, CA</li>
+</ul>
+</li>
+<li>Proximity Measurement<ul>
+<li>drive distance</li>
+<li>drive time</li>
+<li>morning rush hour drive time</li>
+<li>evening rush hour drive time</li>
+<li>weekend drive time</li>
+</ul>
+</li>
+</ul>
+<p>How far away is <em>your</em> home?</p>
+<ul>
+<li>straight line distance</li>
+<li>drive distance</li>
+<li>travel time<ul>
+<li>total travel time</li>
+<li>flight time</li>
+</ul>
+</li>
+</ul>
+<p>Does the sun affect driving safety?</p>
+<ul>
+<li>azimuth delta between driving direction and sun direction</li>
+<li>azimuth above horizon</li>
+<li>slope affecting azimuth above horizon</li>
+<li>cloud cover</li>
+<li>vegetation density</li>
+</ul>
+<p>Tracking Animals</p>
+<ul>
+<li>bird flight</li>
+<li>migration</li>
+</ul>
+<p>Hiking</p>
+<ul>
+<li>trails</li>
+<li>off trail</li>
+</ul>
+<h2 id="topics-and-use-cases">Topics and Use Cases</h2>
+<h3 id="customer-centric-analysis">Customer-Centric Analysis</h3>
+<h3 id="accident-prediction">Accident Prediction</h3></div>
         
         
     </div>
@@ -189,5 +256,5 @@
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2020-02-26 01:09:07
+Build Date UTC : 2020-02-26 19:38:35
 -->
